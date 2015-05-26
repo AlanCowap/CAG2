@@ -1,5 +1,5 @@
 /** 
- * Menu driven program to be run from the Command line
+ *  Menu driven program to be run from the Command line
  *  Demonstrates I/O with user, if statements, basic operators: + - * /
  *  Can be improved to use if - else-if
  *	 
