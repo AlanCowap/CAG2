@@ -7,10 +7,8 @@
  *  
  *  
  */
-//
 
 package com.alancowap.cag.cmd.restaurant;
-
 
 class Restaurant{
 	public static void main(String[] args){
