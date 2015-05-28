@@ -30,8 +30,8 @@ public class Primitives {
 		float myFloat = 1.0; // compiler won't implicitly put a double into a float
 		myFloat = 1.0F;
 		
-		b = 128; //still doesn't work
-		byte b = (byte) 128;
+		b = 128; //still doesn't work, compiler does a range check and realises 128 is Out Of Range for a byte
+		byte b = (byte) 128; // we can 'cast' the int to be a byte, but beware of the bits you lose...
 		System.out.println(b); // Surprised by the output? Check out encoding using "Twos Complement"
 
 	}
