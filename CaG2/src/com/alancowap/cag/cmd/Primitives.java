@@ -1,8 +1,10 @@
 /** 
  *  Demo primitive declaration and initialisation
  *  Demo primitive literal default types (i.e. int, double)
+ *  Demo casting with primitives
  *  Any integer literal is treated as an int (use L or l to specify as a long)
  *  Any floating point literal is treated as a double (use f or F to specify as a float)
+ *  Note: Contains code that will cause compiler errors, can you debug these?
  *  
  * @author Alan Cowap 
  * @version 1.0  
@@ -14,7 +16,8 @@ package com.alancowap.cag.cmd;
 
 public class Primitives {
 
-	public Primitives() {
+	public static void main(String[] args){
+	
 		byte b = 127;
 		b=128; // compiler does a range check and realises 128 is Out Of Range for a byte
 
@@ -26,6 +29,10 @@ public class Primitives {
 		
 		float myFloat = 1.0; // compiler won't implicitly put a double into a float
 		myFloat = 1.0F;
+		
+		b = 128; //still doesn't work
+		byte b = (byte) 128;
+		System.out.println(b); // Surprised by the output? Check out encoding using "Twos Complement"
 
 	}
 
