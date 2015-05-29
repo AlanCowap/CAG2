@@ -84,5 +84,15 @@ public class Contact {
 		this.phoneNumber = phoneNumber;
 	}
 
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Contact [name=" + name + ", email=" + email + ", phoneNumber="
+				+ phoneNumber + "]";
+	}
+
 	
 }
