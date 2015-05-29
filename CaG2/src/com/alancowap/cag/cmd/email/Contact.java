@@ -18,8 +18,20 @@ public class Contact {
 	private String email;
 	private String phoneNumber;
 	
-	public Contact() {
-		// TODO Auto-generated constructor stub
+
+	/**
+	 * Sample constructor to create a simple Contact
+	 * This constructor is called with e.g. new Email("Alan Cowap", "me@here.com", "00-353-1-1234567")
+	 * 
+	 * @param name
+	 * @param email
+	 * @param phoneNumber
+	 */
+	public Contact(String name, String email, String phoneNumber) {
+		super();
+		this.name = name;
+		this.email = email;
+		this.phoneNumber = phoneNumber;
 	}
 
 	//Behaviour

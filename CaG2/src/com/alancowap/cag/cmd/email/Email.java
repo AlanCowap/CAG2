@@ -23,8 +23,8 @@ public class Email {
 	private String body;
 	
 	/**
-	 * Sample cosntructor to create a simple Email
-	 * This construcor is called with e.g. new Email("me@here.com", "you@there.com", "hi", "hello world")
+	 * Sample constructor to create a simple Email
+	 * This constructor is called with e.g. new Email("me@here.com", "you@there.com", "hi", "hello world")
 	 * 
 	 * @param from
 	 * @param to
