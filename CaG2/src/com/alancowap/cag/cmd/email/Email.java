@@ -1,5 +1,8 @@
-/** 
+/**
+ *  Simple class to represent an Email
+ *  
  *  Demo class definition, with state and behaviour
+ *  Demo constructor, demo toString
  *  
  *  Could be improved to allow multiple to, cc, and bcc
  *  Improve to use Contact, rather than String

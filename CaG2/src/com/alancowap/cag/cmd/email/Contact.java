@@ -1,6 +1,9 @@
 /** 
+ *  Simple class to represent a Contact
+ *  
  *  Demo class definition, with state and behaviour
- *  This is a simple sample class
+ *  Demo constructor, demo toString
+ *  This is a simple sample class :)
  *  
  *  
  * @author Alan Cowap 
@@ -20,7 +23,7 @@ public class Contact {
 	
 
 	/**
-	 * Sample constructor to create a simple Contact
+	 * Sample constructor to create a Contact
 	 * This constructor is called with e.g. new Email("Alan Cowap", "me@here.com", "00-353-1-1234567")
 	 * 
 	 * @param name
