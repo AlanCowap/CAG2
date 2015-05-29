@@ -24,8 +24,19 @@ public class ContactBook {
 	Contact contact2;
 	Contact contact3;
 	
-	public ContactBook() {
-		// TODO Auto-generated constructor stub
+	/**
+	 * Sample constructor to create a ContactBook, containing (referencing) 3 Contact objects
+	 * 
+	 * 
+	 * @param contact1
+	 * @param contact2
+	 * @param contact3
+	 */
+	public ContactBook(Contact contact1, Contact contact2, Contact contact3) {
+		super();
+		this.contact1 = contact1;
+		this.contact2 = contact2;
+		this.contact3 = contact3;
 	}
 
 	//Behaviour
