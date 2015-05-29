@@ -125,5 +125,15 @@ public class Email {
 	public void setBody(String body) {
 		this.body = body;
 	}
+	
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Email [from=" + from + ", to=" + to + ", cc=" + cc + ", bcc="
+				+ bcc + ", subject=" + subject + ", body=" + body + "]";
+	}
+	
 
 }
