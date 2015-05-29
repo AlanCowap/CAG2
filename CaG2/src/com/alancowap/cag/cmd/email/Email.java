@@ -2,6 +2,7 @@
  *  Demo class definition, with state and behaviour
  *  
  *  Could be improved to allow multiple to, cc, and bcc
+ *  Improve to use Contact, rather than String
  *  
  * @author Alan Cowap 
  * @version 1.0  
