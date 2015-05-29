@@ -1,0 +1,13 @@
+Week 02 Code Challenge2
+
+You and your team work for a leading Software Development company, SoftCom, who have been contracted to develop a prototype for a new Email program. 
+
+As the hottest team at Soft2Com your team have been assigned this to deliver this prestigious contract. You will develop several classes to model the Email program & Address Book. 
+
+Design a class "Email" which will contain appropriate state and behaviour for an email.
+
+Design a class "Contact" which will contain appropriate state and behaviour for a Contact.
+
+Design a class "ContactBook" which will contain appropriate state and behaviour for a ContactBook (e.g. a list of Contacts, and ways to add, and remove them).
+
+
