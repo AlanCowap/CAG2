@@ -19,19 +19,19 @@ public class Primitives {
 	public static void main(String[] args){
 	
 		byte b = 127;
-		b=128; // compiler does a range check and realises 128 is Out Of Range for a byte
+//		b=128; // compiler does a range check and realises 128 is Out Of Range for a byte
 
 		short s = 32767;
-		s = 32768; // compiler does a range check and realises 32768 is Out Of Range for a short
+//		s = 32768; // compiler does a range check and realises 32768 is Out Of Range for a short
 
-		l = 10000000000; // compiler does a range check and realises this is Out Of Range for an int
+//		l = 10000000000; // compiler does a range check and realises this is Out Of Range for an int
 		long l = 10000000000L; 
 		
-		float myFloat = 1.0; // compiler won't implicitly put a double into a float
-		myFloat = 1.0F;
+//		float myFloat = 1.0; // compiler won't implicitly put a double into a float
+		float myFloat = 1.0F;
 		
-		b = 128; //still doesn't work, compiler does a range check and realises 128 is Out Of Range for a byte
-		byte b = (byte) 128; // we can 'cast' the int to be a byte, but beware of the bits you lose...
+//		b = 128; //still doesn't work, compiler does a range check and realises 128 is Out Of Range for a byte
+		b = (byte) 128; // we can 'cast' the int to be a byte, but beware of the bits you lose...
 		System.out.println(b); // Surprised by the output? Check out encoding using "Twos Complement"
 
 	}

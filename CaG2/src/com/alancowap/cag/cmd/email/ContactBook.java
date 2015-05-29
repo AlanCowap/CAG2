@@ -90,8 +90,8 @@ public class ContactBook {
 	 */
 	@Override
 	public String toString() {
-		return "ContactBook [contact1=" + contact1 + ", contact2=" + contact2
-				+ ", contact3=" + contact3 + "]";
+		return "ContactBook [contact1=" + contact1 + ", \ncontact2=" + contact2
+				+ ", \ncontact3=" + contact3 + "]";
 	}
 
 	

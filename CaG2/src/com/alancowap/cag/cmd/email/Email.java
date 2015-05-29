@@ -27,7 +27,7 @@ public class Email {
 	
 	/**
 	 * Sample constructor to create a simple Email
-	 * This constructor is called with e.g. new Email("me@here.com", "you@there.com", "hi", "hello world")
+	 * This constructor is called with e.g. new Email("me@here.com", "you@there.com", "hi", "Great email!")
 	 * 
 	 * @param from
 	 * @param to
