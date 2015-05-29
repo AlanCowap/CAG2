@@ -84,5 +84,15 @@ public class ContactBook {
 		this.contact3 = contact3;
 	}
 
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "ContactBook [contact1=" + contact1 + ", contact2=" + contact2
+				+ ", contact3=" + contact3 + "]";
+	}
+
 	
 }
