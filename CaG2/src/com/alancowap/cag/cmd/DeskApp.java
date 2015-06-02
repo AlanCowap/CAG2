@@ -1,5 +1,5 @@
 /** 
- *  Simple class to represent an Email Application
+ *  Simple class to represent an Desk Application
  *  
  *  Demo object creation, setting and getting state
  *  This is a simple sample class :)
