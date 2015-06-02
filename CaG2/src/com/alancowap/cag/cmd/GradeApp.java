@@ -1,5 +1,5 @@
 /** 
- *  Demo if else-if statement
+ *  Demo if else-if else statement
  *  Demo switch statement
  *	 
  * @author Alan Cowap 
