@@ -1,8 +1,8 @@
 /** 
- *  Simple class to represent a ContactBook
+ *  Simple class to represent an Email Application
  *  
- *  Demo class definition, with state and behaviour
- *  Demo constructor, demo toString
+ *  Demo object creation, getting and setting
+ *  Demo usage of constructor, demo toString
  *  This is a simple sample class :)
  *  
  *  Assume learner has no knowledge of data structures, or iteration statements
