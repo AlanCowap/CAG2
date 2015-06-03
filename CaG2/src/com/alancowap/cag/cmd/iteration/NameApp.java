@@ -14,16 +14,9 @@ package com.alancowap.cag.cmd.iteration;
 public class NameApp {
 
 	public static void main(String[] args) {
-		System.out.println("Alan C");
-		System.out.println("Alan C");
-		System.out.println("Alan C");
-		System.out.println("Alan C");
-		System.out.println("Alan C");
-		System.out.println("Alan C");
-		System.out.println("Alan C");
-		System.out.println("Alan C");
-		System.out.println("Alan C");
-		System.out.println("Alan C");
+		for(int i=0; i < 3; ++i){
+			System.out.println(i + " Alan C");
+		}
 	}
 
 }
