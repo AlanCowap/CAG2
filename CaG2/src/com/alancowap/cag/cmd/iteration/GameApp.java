@@ -3,7 +3,7 @@
  *  
  *	 
  * @author Alan Cowap 
- * @version 1.1  
+ * @version 1.0  
  * @dependencies none
  *  
  *  
