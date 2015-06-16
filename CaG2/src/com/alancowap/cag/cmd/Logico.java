@@ -1,7 +1,7 @@
 /** 
  *  Simple class to demo logical operators
  *  
- *  Use of &&, !! and ! logical operators (AND, OR, NOT)
+ *  Use of &&, || and ! logical operators (AND, OR, NOT)
  *  Use of compound assignment operators
  *  
  *  
